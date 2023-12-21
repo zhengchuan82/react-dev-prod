@@ -1,3 +1,13 @@
+Dockerized react dev and prod pipline.
+Run with
+docker-compose -f docker-compose.yml -f docker-compose-prod.yml -d up --build
+to start production deployment with nginx server listening on 8080.
+
+Run with
+docker-compose -f docker-compose.yml -f docker-compose-dev.yml -d up --build
+to start dev with port 3000.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
